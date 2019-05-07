@@ -1,0 +1,19 @@
+{
+    "name": "webinar-e2e",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "nightwatch --config nightwatch.conf.js"
+    },
+    "keywords": [],
+    "author": "Piotr Kowalski <piecioshka@gmail.com> (https://piecioshka.pl)",
+    "license": "MIT",
+    "devDependencies": {
+        "chromedriver": "^74.0.0",
+        "nightwatch": "^1.0.19"
+    }
+}
