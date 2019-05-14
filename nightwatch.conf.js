@@ -3,6 +3,14 @@ module.exports = {
 
     "detailed_output": false,
 
+    "test_runner": {
+        "type": "mocha",
+        "options": {
+            "ui": "bdd",
+            "reporter": "list"
+        }
+    },
+
     "webdriver": {
         "start_process": true,
         "server_path": 'node_modules/.bin/chromedriver',
