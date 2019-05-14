@@ -1,5 +1,15 @@
 language: node_js
+
+os:
+  - linux
+  - osx
+
 node_js:
   - "12"
-script:
-  - xvfb-run npm test
+  - "11"
+  - "10"
+  - "9"
+  - "8"
+
+addons:
+  chrome: stable

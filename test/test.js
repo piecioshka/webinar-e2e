@@ -26,7 +26,7 @@ test('Spr. czy jest odpowiednia liczba elementów w menu', async (client) => {
     await setup(client);
     await client.elements('css selector', '.menu-item', (result) => {
         const menuSize = result.value.length;
-        client.assert.equal(menuSize, 9);
+        client.assert.equal(menuSize, 10);
     });
     // await teardown(client);
 });
