@@ -13,6 +13,7 @@
     "author": "Piotr Kowalski <piecioshka@gmail.com> (https://piecioshka.pl)",
     "license": "MIT",
     "devDependencies": {
+        "@types/mocha": "^5.2.6",
         "chromedriver": "^74.0.0",
         "nightwatch": "^1.0.19",
         "nightwatch-helpers": "^1.2.0"
