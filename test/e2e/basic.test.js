@@ -1,7 +1,7 @@
-const PAGE_URL = 'https://piecioshka.pl/blog';
-const PAGE_LOAD_DELAY = 3000;
-
 describe('Basic test', function () {
+
+    const PAGE_URL = 'http://piecioshka.pl/blog';
+    const PAGE_LOAD_DELAY = 3000;
 
     beforeEach(async (client, done) => {
         await client.url(PAGE_URL);
@@ -19,4 +19,5 @@ describe('Basic test', function () {
             client.assert.equal(menuSize, 10);
         });
     });
+
 });
