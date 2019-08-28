@@ -20,6 +20,8 @@ module.exports = {
     "custom_commands_path": ["node_modules/nightwatch-helpers/commands"],
     "custom_assertions_path": ["node_modules/nightwatch-helpers/assertions"],
 
+    "page_objects_path": ["test/e2e/page-objects"],
+
     "test_settings": {
         "default": {
             "desiredCapabilities": {
