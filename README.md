@@ -1,6 +1,5 @@
 # webinar-e2e
 
-[![dependencies](https://david-dm.org/piecioshka/webinar-e2e.svg)](https://github.com/piecioshka/webinar-e2e)
 [![travis](https://img.shields.io/travis/piecioshka/webinar-e2e.svg)](https://travis-ci.org/piecioshka/webinar-e2e)
 
 :movie_camera: Webinar: Testy end-to-end
