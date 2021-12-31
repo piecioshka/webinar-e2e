@@ -1,6 +1,6 @@
 # webinar-e2e
 
-[![travis](https://img.shields.io/travis/piecioshka/webinar-e2e.svg)](https://travis-ci.org/piecioshka/webinar-e2e)
+[![travis-ci](https://api.travis-ci.com/piecioshka/webinar-e2e.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/webinar-e2e)
 
 :movie_camera: Webinar: Testy end-to-end
 
